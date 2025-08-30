@@ -1,56 +1,65 @@
-# 📟 Calculadora (Versão Console)
+# 📌 Calculadora (Versão Console)
 
-Este projeto é a **primeira versão** da calculadora, implementada em **Java**, utilizando apenas entrada e saída no **terminal** com `Scanner` e `System.out.println`.  
-
----
-
-## 🚀 Funcionalidades
-- Operações suportadas:
-  - ➕ Adição (+)  
-  - ➖ Subtração (-)  
-  - ✖️ Multiplicação (*)  
-  - ➗ Divisão (/)  
-- Tratamento de erros:
-  - Evita divisão por zero.  
-  - Valida entradas não numéricas.  
-- Permite realizar várias operações em sequência até o usuário decidir sair.  
+Este projeto é a **primeira versão** da calculadora, desenvolvida em **Java**, que funciona apenas no **terminal** utilizando `Scanner` para entrada de dados e `System.out.println` para saída.
 
 ---
 
-## 💻 Exemplo de uso
+## 📖 Funcionalidades
+
+- Solicita dois valores numéricos do usuário.  
+- Solicita a operação desejada (`+`, `-`, `*`, `/`).  
+- Realiza o cálculo e exibe o resultado.  
+- Trata exceções para entradas inválidas (ex: letras em vez de números).  
+- Impede divisão por zero.  
+- Permite realizar múltiplas operações até o usuário decidir sair.
+
+---
+
+## 🛠️ Estrutura do Código
+
+O código principal está contido na classe:
+
+- `Calculadora.java` → contém:
+  - `main` → fluxo de execução do programa no console.  
+  - `realizarCalculo` → método responsável pelas operações matemáticas.  
+  - `verificarNovaOperacao` → método para perguntar ao usuário se deseja continuar.
+
+---
+
+## ▶️ Exemplo de Uso
 
 ```text
-Digite o valor um:
+Digite o valor um: 
 10
-Digite a operação (+, -, /, *):
+Digite a operação (+, -, /, *): 
 +
-Digite o valor dois:
+Digite o valor dois: 
 5
 Resultado: 15.0
-
-Deseja realizar uma nova operação (Sim ou Não):
-Sim
-
----
-
-🛠️ Estrutura do Código
-main → controla o fluxo principal, lê entradas do usuário e chama os métodos auxiliares.
-
-realizarCalculo → executa a operação matemática escolhida.
-
-verificarNovaOperacao → pergunta se o usuário deseja continuar.
-
----
-
-▶️ Como executar
-1. Compile o programa:
+Deseja realizar uma nova operação (Sim ou Não): 
+Não
+🚀 Como Executar
+Compile o arquivo Java:
 
 bash
 Copiar código
 javac Calculadora.java
-
-2. Execute:
+Execute o programa:
 
 bash
 Copiar código
 java Calculadora
+📌 Tecnologias Utilizadas
+Java 17+ (funciona em versões posteriores também)
+
+Scanner para entrada de dados via console
+
+📂 Estrutura do Projeto
+bash
+Copiar código
+/calculadora-console
+ ├── Calculadora.java
+ └── README.md
+✨ Observação
+Este projeto é apenas a versão inicial.
+A versão mais avançada, com interface gráfica em Swing, está disponível em outra branch do repositório.
