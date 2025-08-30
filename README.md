@@ -26,52 +26,38 @@ O código principal está contido na classe:
 
 ---
 
-## ▶️ Exemplo de Uso
-
-```text
-Digite o valor um: 
-10
-Digite a operação (+, -, /, *): 
-+
-Digite o valor dois: 
-5
-Resultado: 15.0
-Deseja realizar uma nova operação (Sim ou Não): 
-Não
-
----
-
 ## 🚀 Como Executar
-Compile o arquivo Java:
 
-bash
-Copiar código
+1. Compile o arquivo Java:
+
+```bash
 javac Calculadora.java
 Execute o programa:
 
 bash
 Copiar código
 java Calculadora
-
----
-
-## 
 📌 Tecnologias Utilizadas
 Java 17+ (funciona em versões posteriores também)
 
 Scanner para entrada de dados via console
 
----
-
-## 📂 Estrutura do Projeto
+📂 Estrutura do Projeto
 bash
 Copiar código
 /calculadora-console
  ├── Calculadora.java
  └── README.md
+▶️ Exemplo de Uso
+Entrada:
+Digite o valor um: 10
+Digite a operação (+, -, /, *): +
+Digite o valor dois: 5
 
----
+Saída:
+Resultado: 15.0
+Deseja realizar uma nova operação (Sim ou Não): Não
 
-## ✨ Observação
+✨ Observação
 Este projeto é apenas a versão inicial.
 A versão mais avançada, com interface gráfica em Swing, está disponível em outra branch do repositório.
