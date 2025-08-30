@@ -30,6 +30,9 @@ Resultado: 15.0
 
 Deseja realizar uma nova operação (Sim ou Não):
 Sim
+
+---
+
 🛠️ Estrutura do Código
 main → controla o fluxo principal, lê entradas do usuário e chama os métodos auxiliares.
 
@@ -37,13 +40,16 @@ realizarCalculo → executa a operação matemática escolhida.
 
 verificarNovaOperacao → pergunta se o usuário deseja continuar.
 
+---
+
 ▶️ Como executar
-Compile o programa:
+1. Compile o programa:
 
 bash
 Copiar código
 javac Calculadora.java
-Execute:
+
+2. Execute:
 
 bash
 Copiar código
