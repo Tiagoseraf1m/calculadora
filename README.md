@@ -1,6 +1,6 @@
 # 📟 Calculadora (Versão Console)
 
-Este projeto é a **primeira versão** da calculadora, implementada em **Java** utilizando apenas entrada e saída no **terminal** (`Scanner` e `System.out.println`).  
+Este projeto é a **primeira versão** da calculadora, implementada em **Java**, utilizando apenas entrada e saída no **terminal** com `Scanner` e `System.out.println`.  
 
 ---
 
@@ -12,13 +12,14 @@ Este projeto é a **primeira versão** da calculadora, implementada em **Java** 
   - ➗ Divisão (/)  
 - Tratamento de erros:
   - Evita divisão por zero.  
-  - Valida entradas não numéricas (mensagem de erro e nova tentativa).  
-- Possibilidade de realizar várias operações em sequência até o usuário decidir sair.  
+  - Valida entradas não numéricas.  
+- Permite realizar várias operações em sequência até o usuário decidir sair.  
 
 ---
 
 ## 💻 Exemplo de uso
-```bash
+
+```text
 Digite o valor um:
 10
 Digite a operação (+, -, /, *):
